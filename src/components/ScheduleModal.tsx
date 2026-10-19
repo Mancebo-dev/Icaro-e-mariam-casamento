@@ -141,7 +141,7 @@ export const ScheduleModal: React.FC<ScheduleModalProps> = ({ isOpen, onClose })
                 </div>
                 <div className="timeline-content from-right w-[38%] flex justify-start opacity-0">
                   <div className="text-left pl-2">
-                    <p className="font-petit-formal text-2xl text-[#e7376f]">16:30</p>
+                    <p className="font-petit-formal text-2xl text-[#e7376f]">16:00</p>
                     <p className="font-libre-caslon text-gray-500 text-sm italic">O momento mais esperado!</p>
                   </div>
                 </div>
@@ -166,7 +166,7 @@ export const ScheduleModal: React.FC<ScheduleModalProps> = ({ isOpen, onClose })
               {/* Item 4 */}
               <div className="flex items-center w-full justify-between h-28">
                 <div className="timeline-content from-left w-[38%] flex justify-end opacity-0">
-                  <p className="font-libre-caslon text-xl text-gray-800 text-right pr-2">Entradas</p>
+                  <p className="font-libre-caslon text-xl text-gray-800 text-right pr-2">Entradas e Drinks</p>
                 </div>
                 <div className="timeline-node w-10 h-10 rounded-full bg-white border border-[#e7376f]/30 flex items-center justify-center shadow-lg absolute left-1/2 -translate-x-1/2 text-[#e7376f] opacity-0">
                   <Flower2 className="w-5 h-5" />
@@ -192,7 +192,7 @@ export const ScheduleModal: React.FC<ScheduleModalProps> = ({ isOpen, onClose })
                   <Flower2 className="w-5 h-5" />
                 </div>
                 <div className="timeline-content from-right w-[38%] flex justify-start opacity-0">
-                  <p className="font-libre-caslon text-xl text-gray-800 pl-2">Bolo</p>
+                  <p className="font-libre-caslon text-xl text-gray-800 pl-2">Jantar</p>
                 </div>
               </div>
 
